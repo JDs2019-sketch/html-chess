@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #363432; 
+  background: #e6e9ff; 
+
+header {
+  background-color: #7e87e5; 
+  padding: 1rem;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  background-color: #98a0ec;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #363432; 
+  text-decoration: none;
+  padding: 0.5rem 1rem; 
+  border-radius: 10px; 
+  background-color: #b2b8f2; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ccd1f9; 
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #ccd1f9; 
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+section h2,
+section h3 {
+  color: #363432; 
+  font-weight: bold; 
+  border-bottom: 2px solid #fff; 
+  padding-bottom: 0.5rem; 
+}
+
+section p {
+  text-indent: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: #f8f8f8; 
+  color: #9a91ec; 
+  padding: 2rem;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section ul li {
+  border: 1px solid #363432;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #b2b8f2;
+  color: #363432;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#news a,
+#resources a {
+  background-color: #b2b8f2; 
+  color: #363432; 
+  text-decoration: none;
+  padding: 0.5rem 1rem; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#news a:hover,
+#resources a:hover {
+  color: #fff; 
+  background-color: #7e87e5; 
+}
